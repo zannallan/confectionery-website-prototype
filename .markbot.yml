@@ -62,7 +62,6 @@ css:
       - ['@media.+\(.*max-width', 'Media queries with `max-width` should not be used — use `min-width` instead']
       - ['@media.+\(.*px', 'Pixel units should not be used in media queries — use `em` instead']
       - ['font-size\s*:\s*.+px', 'Pixel units should not be used for `font-size` — use `rem` instead']
-      - ['line-height\s*:\s*.+(px|rem|em)', 'Line heights should not have units']
 
 functionality:
   - path: 'index.html'
