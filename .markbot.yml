@@ -1,56 +1,29 @@
 repo: 'confectionery-website-prototype'
 canvasCourse: 'web-dev-1'
 
-naming: true
-liveWebsite: true
-
-git:
-  numCommits: 10
-  allCommitted: true
-  allSynced: true
+inherit:
+  - naming-restrict-live
+  - git-10
+  - html
+  - google-fonts
+  - html-good-semantics
+  - img-flex
+  - css
+  - border-box
+  - responsive-css
+  - responsive-font-sizes
+  - nav-hover
 
 html:
   - path: 'index.html'
-    valid: true
-    bestPractices: true
-    outline: true
     has:
-      - ['link[href*="fonts.googleapis.com"]', 'A webfont from Google Fonts should be used']
-      - 'header'
-      - 'header h1'
-      - 'header nav'
-      - 'header nav li'
-      - 'header nav li a'
-      - 'main'
-      - 'section'
-      - 'footer'
       - 'img'
       - 'h2'
       - 'div'
 
 css:
   - path: 'css/main.css'
-    valid: true
-    bestPractices: true
-    has:
-      - ['html', 'box-sizing', 'border-box']
-      - ['html', 'text-size-adjust', '100%']
-      - ['html', '-moz-text-size-adjust', '100%']
-      - ['html', '-ms-text-size-adjust', '100%']
-      - ['html', '-webkit-text-size-adjust', '100%']
-      - ['*', 'box-sizing', 'inherit']
-      - ['@25em']
-      - ['@38em', 'html', 'font-size', '110%']
-      - ['@38em', 'html', 'line-height', '1.4']
-      - ['@60em', 'html', 'font-size', '120%']
-      - ['@60em', 'html', 'line-height', '1.5']
-      - ['@90em', 'html', 'font-size', '130%']
     search:
-      - '@-moz-viewport'
-      - '@-ms-viewport'
-      - '@-o-viewport'
-      - '@-webkit-viewport'
-      - '@viewport'
       - 'padding'
       - 'margin'
       - 'position: relative'
@@ -58,20 +31,3 @@ css:
       - 'float: (left|right)'
       - 'display: block'
       - 'display: inline-block'
-    search_not:
-      - ['@media.+\(.*max-width', 'Media queries with `max-width` should not be used — use `min-width` instead']
-      - ['@media.+\(.*px', 'Pixel units should not be used in media queries — use `em` instead']
-      - ['font-size\s*:\s*.+px', 'Pixel units should not be used for `font-size` — use `rem` instead']
-
-functionality:
-  - path: 'index.html'
-    tests:
-      - |
-        let headerLink = $('header nav a');
-        let oldBg = css(headerLink).backgroundColor;
-        let oldColor = css(headerLink).color;
-
-        hover('header nav a', function () {
-          if (css(headerLink).backgroundColor == oldBg && css(headerLink).color == oldColor) fail('The `background-color` or `color` of the navigation links don’t change when hovered')
-          pass();
-        });

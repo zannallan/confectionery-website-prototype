@@ -35,7 +35,7 @@ There should be a significant example of everything we’ve learned this term in
 ## Markbot’s expectations
 
 - `header`, `header nav`, `header h1`, `header li`, `header nav a`
-- `main`, `h2`, `div`, `section`, `img`, `footer`
+- `main`, `h2`, `div`, `section`, `img.img-flex`, `footer`
 - A Google Font
 - CSS boilerplate: `cssviewport`, `borderbox`, `textsize`
 - Standard media query widths: `25em`, `38em`, `60em`, `90em`
