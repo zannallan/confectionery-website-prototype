@@ -40,7 +40,7 @@ There should be a significant example of everything we’ve learned this term in
 - CSS boilerplate: `cssviewport`, `borderbox`, `textsize`
 - Standard media query widths: `25em`, `38em`, `60em`, `90em`
 - Standard text sizes & line heights: `100%/1.3`, `110%/1.4`, `120%/1.5`, `130%/1.5`
-- `margin`, `padding`, `position: absolute`, `position: relative`, `float: left` or `float: right`, `display: block`, `display: inline-block`
+- `margin`, `padding`, `position: absolute`, `position: relative`, `display: block`, `display: inline-block`, `display: flex`
 - A `background-color` or `color` hover state for the navigation links
 
 ---

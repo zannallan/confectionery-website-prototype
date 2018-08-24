@@ -28,6 +28,6 @@ css:
       - 'margin'
       - 'position: relative'
       - 'position: absolute'
-      - 'float: (left|right)'
       - 'display: block'
       - 'display: inline-block'
+      - 'display: flex'
