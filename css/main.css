@@ -19,3 +19,28 @@ html {
 body {
   margin: 0;
 }
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+header {
+  background-color: #e6ccb3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 20%;
+}
+
+nav {
+  width: 80%;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
