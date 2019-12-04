@@ -147,6 +147,30 @@ nav a:hover {
 
 .link-card {
   position: absolute;
+  text-decoration: none;
+  width: 80%;
+  font-family: Marck Script, cursive;
+  font-size: 1.7rem;
+  color: #FEF5F0;
+  padding: 1rem 2rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(70, 24, 14, .7);
+}
+
+.link-card:hover {
+  color: #392213;
+  background-color: rgba(254, 245, 240, .7);
+}
+
+.link-card h2 {
+  margin: 0;
+}
+
+.link-card span {
+  font-family: Nunito, sans-serif;
+  font-weight: 100;
+  font-size: 1.1rem;
 }
 
 .chocolate .link-card {
@@ -177,4 +201,40 @@ nav a:hover {
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
+}
+
+.footer {
+  padding: .75rem;
+  text-align: center;
+}
+
+.copyright {
+  font-size: .6rem;
+  padding-top: .5rem;
+  color: #392213;
+  font-family: Lora, sans-serif;
+}
+
+.social {
+  margin: 0;
+  padding: 0;
+  padding-top: .5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.social li {
+  list-style-type: none;
+  font-family: Nunito, sans-serif;
+  font-size: .9rem;
+}
+
+.social a {
+  color: #392213;
+  text-decoration: none;
+}
+
+.social a:hover {
+  color: #5D180E;
 }
