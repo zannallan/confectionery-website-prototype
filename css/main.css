@@ -154,7 +154,7 @@ header nav a:hover {
 
 .about p {
   text-align: left;
-  font-size: 15px;
+  font-size: .94rem;
   max-width: 600px;
 }
 
@@ -344,7 +344,7 @@ footer {
   .link-card {
     display: inline;
     color: #FEF5F0;
-    padding: 4rem, 5rem;
+    padding: 4rem 5rem;
     border-radius: 50%;
     text-align: center;
     background-color: rgba(70, 24, 14, .4);
