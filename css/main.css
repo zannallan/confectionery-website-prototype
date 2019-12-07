@@ -99,7 +99,7 @@ header nav a:hover {
   color: #5d180e;
 }
 
-.header-wrap{
+.header-wrap {
   position: relative;
   max-width: 1000px;
   border-left: 4px dotted #392213;
@@ -197,7 +197,7 @@ header nav a:hover {
 .chocolate .link-card {
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .newsletter {
@@ -226,7 +226,7 @@ header nav a:hover {
 .shop .link-card {
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 footer {
@@ -311,7 +311,7 @@ footer {
     padding-bottom: 3.3rem;
   }
 
-  header li{
+  header li {
     display: inline;
   }
 
@@ -323,7 +323,7 @@ footer {
     font-size: 1.4rem;
   }
 
-  .header-wrap{
+  .header-wrap {
     margin: 0 auto;
   }
 
