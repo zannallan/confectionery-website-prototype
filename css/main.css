@@ -52,7 +52,7 @@ p {
 }
 
 header h1 {
-  font-family: Marck Script, cursive;
+  font-family: "Marck Script", cursive;
   font-size: 2em;
   color: #392213;
   position: absolute;
@@ -118,7 +118,7 @@ header nav a:hover {
 }
 
 .header-caption h2 {
-  font-family: Marck Script, cursive;
+  font-family: "Marck Script", cursive;
   font-size: 2rem;
   margin: 0;
 }
@@ -149,7 +149,7 @@ header nav a:hover {
   font-size: 1.9rem;
   color: #392213;
   margin: 0;
-  font-family: Marck Script, cursive;
+  font-family: "Marck Script", cursive;
 }
 
 .about p {
@@ -170,7 +170,7 @@ header nav a:hover {
   position: absolute;
   text-decoration: none;
   width: 80%;
-  font-family: Marck Script, cursive;
+  font-family: "Marck Script", cursive;
   font-size: 1.7rem;
   color: #fef5f0;
   padding: 1rem 2rem;
@@ -219,7 +219,7 @@ header nav a:hover {
 }
 
 .news:hover {
-  background-color: #FEF5F0;
+  background-color: #fef5f0;
   color: #5d180e;
 }
 
