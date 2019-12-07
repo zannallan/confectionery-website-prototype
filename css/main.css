@@ -37,8 +37,6 @@ header {
   flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
-  border-left: 4px dotted #392213;
-  border-right: 4px dotted #392213;
 }
 
 p {
@@ -102,8 +100,6 @@ header nav a:hover {
 .header-wrap {
   position: relative;
   max-width: 1000px;
-  border-left: 4px dotted #392213;
-  border-right: 4px dotted #392213;
 }
 
 .header-caption {
@@ -134,8 +130,6 @@ header nav a:hover {
   text-align: center;
   max-width: 1000px;
   margin: 0 auto;
-  border-left: 4px dotted #392213;
-  border-right: 4px dotted #392213;
 }
 
 .about hr {
@@ -162,8 +156,8 @@ header nav a:hover {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  border-left: 4px dotted #392213;
-  border-right: 4px dotted #392213;
+  max-width: 470px;
+  margin: 0 auto;
 }
 
 .link-card {
@@ -201,8 +195,8 @@ header nav a:hover {
 }
 
 .newsletter {
-  border-left: 4px dotted #392213;
-  border-right: 4px dotted #392213;
+  max-width: 470px;
+  margin: 0 auto;
 }
 
 .newsletter a {
@@ -234,8 +228,6 @@ footer {
   margin: 0 auto;
   padding: .75rem;
   text-align: center;
-  border-left: 4px dotted #392213;
-  border-right: 4px dotted #392213;
 }
 
 .copyright {
@@ -344,10 +336,14 @@ footer {
   .link-card {
     display: inline;
     color: #fef5f0;
-    padding: 4rem 5rem;
+    padding: 1em 2em;
     border-radius: 50%;
     text-align: center;
     background-color: rgba(70, 24, 14, .4);
+  }
+
+  .chocolate, .shop {
+    max-width: 100%;
   }
 
   .shop .left {
@@ -356,6 +352,10 @@ footer {
 
   .chocolate .right {
     background-color: rgba(70, 24, 14, .4);
+  }
+
+  .newsletter {
+    max-width: 100%;
   }
 
   .social {
@@ -371,6 +371,11 @@ footer {
     line-height: 1.5;
   }
 
+  header {
+    border-left: 4px dotted #392213;
+    border-right: 4px dotted #392213;
+  }
+
   .logo img {
     width: 180px;
     left: 1.6rem;
@@ -380,9 +385,21 @@ footer {
     width: 230px;
   }
 
+  .header-wrap {
+    border-left: 4px dotted #392213;
+    border-right: 4px dotted #392213;
+  }
+
+  .about {
+    border-left: 4px dotted #392213;
+    border-right: 4px dotted #392213;
+  }
+
   .chocolate, .shop, .newsletter {
     max-width: 1000px;
     margin: 0 auto;
+    border-left: 4px dotted #392213;
+    border-right: 4px dotted #392213;
   }
 
   .header-caption h2 {
@@ -391,6 +408,11 @@ footer {
 
   .header-caption span {
     font-size: 1.9rem;
+  }
+
+  footer {
+    border-left: 4px dotted #392213;
+    border-right: 4px dotted #392213;
   }
 
 }
