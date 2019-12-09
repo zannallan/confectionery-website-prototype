@@ -176,6 +176,7 @@ header nav a:hover {
 .link-card:hover {
   color: #392213;
   background-color: rgba(254, 245, 240, .7);
+  transition: 1s;
 }
 
 .link-card h2 {
@@ -215,6 +216,7 @@ header nav a:hover {
 .news:hover {
   background-color: #fef5f0;
   color: #5d180e;
+  transition: 1s;
 }
 
 .shop .link-card {
