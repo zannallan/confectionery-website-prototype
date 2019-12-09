@@ -423,4 +423,9 @@ footer {
     font-size: 130%;
   }
 
+  .logo img {
+    width: 195px;
+    left: 1.3rem;
+  }
+
 }
